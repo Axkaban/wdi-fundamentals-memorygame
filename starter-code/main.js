@@ -17,9 +17,9 @@ var isTwoCards=function(){
 	cardsInPlay.push(this.getAttribute('data-card'));
 	console.log(this.getAttribute('data-card'));
 	if(this.getAttribute('data-card')==='king'){
-		this.innerHTML= "<img src='/Users/AK/fundamentals/crown-1480134_1920.jpg'>";
+		this.innerHTML= "<img src='/Users/AK/fundamentals/wdi-fundamentals-memorygame/starter-code/crown-1480134_1920.jpg'>";
 	} else {
-		this.innerHTML="<img src='/Users/AK/fundamentals/crown-1647397_1280.png'>";
+		this.innerHTML="<img src='/Users/AK/fundamentals/wdi-fundamentals-memorygame/starter-code/crown-1647397_1280.png'>";
 	};
 	if(cardsInPlay.length===2){
 		isMatch(cardsInPlay);
